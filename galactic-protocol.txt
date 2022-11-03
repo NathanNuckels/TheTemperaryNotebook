@@ -26,6 +26,60 @@ Gotta love those 90s developers. So "creative"
 
 Lets check the wikiapibia for info.
 
+16 bits: source port (0-65535)
+16 bits: destination port (0-65535)
+32 bits: sequence number (0-4294967296)
+if SYN flag is set, it is the inital sequence number.
+The first blok with data is thi snumber +1
+If it isnt set, this is the accumulated number of the first
+data byte of this block
+32 bits: acknowledgement number (0-4294967296)
+If ACK is set, This is the next squence number the sender is expecting.
+This acknowledges receving all prier bytes, if any.
+4 bits: data ofset - the size of the TCP header in bytes devided by four.
+The minimum size is 5 32bit words and the max is 15
+3 bits: these are just 0
+9 bits: flags
+NS ECN-nonce concealment protection (TF is this mean?)
+CWR - Congestion window reduced
+Send it to spesify you receved a packet that has ECE flag set.
+I dont get the point of this.
+ECE - ECN echo
+if SYN is set, this indecates if the hot is ECN capible
+If SYN isnt set, this means a packet with 'Congestion Experienced'
+flag set in the header was receved during normal transmission.
+This is used for a node to insult another node's internet connection basically.
+Like "I was just doing my job and you say I'm slow? Mabee youre slow!"
+URG - The urgent pointer is important.
+ACK - says that the acknowledgment number is important.
+Everything sent after a SYN packet should have this on.
+PSH - Asks to push the buffered data to the receving application, whatever that means.
+RST - reset
+SYN - Synchronize watches!
+only the first packet send from each end should have this set.
+FIN - bye bye
+
+16 bits: window size
+spesifies the size of the "receve window"
+wich spesifies the number of "window size units"
+that the sender is currently willing to receve.
+(So basically, what I'm getting here is "i want this many packets.")
+16 bits: Checksum
+16 bits: pointer to the last urgent byte in the data.
+See URG flag.
+0 to 320 bits: "Options" (in groups of 32 bits)
+The size of this is determined by the size of the data ofset field.
+Options have three fields.
+1 byte: Option-Kind
+1 byte: Option-Length
+(any): Option-data
+
+Here is a list of options.
+
+|Kind|length|Data     |
+|0   |X     |X        | End of list
+|1   |X     |X        | No operation
+|2   |4     |SS       | Maximum segment size
 
 
 6.02*10^23 mol number
