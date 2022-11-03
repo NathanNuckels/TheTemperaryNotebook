@@ -1,0 +1,31 @@
+Lets make an internet protocol for aliens cause I'm bored.
+
+Ok, not really for aliens spesifically, but it should be simple to decipher,
+like linux DEB packages. Someone with a lot of knowledge in linux
+but no knowledge of .DEB files would be able to install a DEB file just
+by messing with it.
+Its a tarball. Inside it is another tarball you extract to the root folder.
+(by root i mean / not /root/) and some metadata.
+
+I want my format to be simple so thaat any technologically advanced society can understand it.
+Of course, if you write in a human language, others won't understand but you can send pictures
+that everyone understands... kinda. To define a proton you can make a circle with a + in it
+but then you have to define what a + even is and...
+
+Well, the point of this is they can decode the image, makeing an image that aliens can even
+undertand... well, thats SETI's job.
+
+Lets start defining things.
+
+Transmit things in binary cause computers use binary.
+
+Lets make packets.
+I'll base it off of human TCP packets.
+TCP stands for 'Transmission Controll Protocol'
+Gotta love those 90s developers. So "creative"
+
+Lets check the wikiapibia for info.
+
+
+
+6.02*10^23 mol number
