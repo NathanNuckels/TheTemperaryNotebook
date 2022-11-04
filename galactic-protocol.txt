@@ -100,9 +100,8 @@ Flags:
 $34:0 SYNC - Same as SYN in TCP
 $34:1 ACK - Same as ACK in TCP
 $34:2 SACK - Spesific ACK, ask for a spesific packet index number. (the number requested goes in the extended header)
-$34:3 SMALLER - Used with ACK to tell the server to make smaller packets. The exact size goes in the extended header. Simaler to ECE
-$34:4 BIGGER - Used with ACK to request bigger packets. Spesify in the extended header
-$34:5 SLOWER - Used with ACK to make the server send packets slower. How much "slower" is up to the server.
+$34:3 WNC - Sliding window change. The new value of it is set in the extended header.
+
 $34:6 RESET - Same as RST
 $34:7 EOF - Same as FIN
 
@@ -112,7 +111,47 @@ $35, $36 and $37 are currently unused but lets give it some lore just for fun.
 "It was used to smuggle information so now every packet that goes through a computer must force set these bits to be all zeros."
 "Man, Percians the really ruined the fun for everyone!"
 (Percius-394 is a planet in the Mosphere/Furra world. They are basically all the pros of the Soviet union with all the cons of the Mongols.
-So, basically, lots of chaos...)
+So, basically, great economy but lots of chaos...)
 
 What is the extended header? Well, there is a byte that sets the length of the header so you can set it to be
 basically whatever and put extra stuff in the empty space, like the TCP "options" area.
+
+If SACK is set, Each 32bit int after the header is a spesific packet number being requested.
+If WNC is set, the first 32bit int after the header is the new "window" size (see below) (all bytes after the first one can be used for SACK)
+
+SLIDING WINDOW!!
+Ok so what the heck is this 'sliding window' everyone is talking about it!
+Well, what if sending a packet takes... 1 seccond and when the revever sends a packet it takes 5 seconds.
+1 seccond for packet, 5 secconds for ACK. We can do better.
+The sliding window is a flow controll system that lets you send many packets without ACKing them.
+For us, the sliding window is mesured in packets, not bytes (wich is how I THINK TCP does it)
+So if the 'sliding' window is 5, the server can send five packets, 1,2,3,4,5, and then the client can
+ACK number 5 (Remember, ACKing a number also ACKs all bytes before it) and at the same size, set a new window size.
+This is why its a 'sliding' window. It look me three days of staring at wikapedia to understand this so please correct me if I'm
+wrong. Also, to add to ambiguity, in the wikapedia page for TCP, it says it is in "window size units"
+and on the page for Flow Controll, it says that it should be in packets but spesifically mentions TCP doing in
+in BYTES for some reason.
+
+   |0       1       2       3       4       5       6       7       |
+00 |[SOURCE ADDRESS                                                 |
+08 |                                                 SOURCE ADDRESS]|
+10 |[DESTINATION ADDRESS                                            |
+18 |                                            DESTINATION ADDRESS]|
+20 |[Source port   ][dest port     ][sequence index                ]|
+28 |[acknowledgement index         ][offset        ][checksum      ]|
+30 |[Length                        ][FLAGS                         ]|
+
+To summerize,
+sixteen octets for the sender address, sixteen octets for the destination address,
+two octets for the sender's port, two octets for the destination port,
+four octets for the sequence umber, four octets for the acknowledgement number,
+four octets for the offset or length of the header, two octets for the checksum,
+four octets for the length of the data, one bit for sync, one bit for ACK,
+One bit for SACK, one bit to indecate a new window size, two unused bits, one bit to reset
+the connection, one bit to end the connection, three unused octets, optionally, four
+octets for a new window size, and an aditional four octets for each sequence number
+requested for a SACK.
+
+I decided to say 'octets' instead of 'bytes' becasue thats how the fancy people do it...
+
+Anyway, see GTP-Examples.txt for more!
