@@ -1,0 +1,115 @@
+   0       1       2       3
+   01234567012345670123456701234567
+00 [------------------------------] [128 bits] In IPv4, local (private) addresses (leagally) start with 10, 172.[16 through 31] and 192.168
+04 [          SOURCE ADDRESS      ] Wich is what my router uses. In IPv6, they start with FD, have a ranom number xx:xxxx:xxxx
+08 [                              ] A subnet ID, yyyy, and an interface id wich makes the address FDxx:xxxx:xxxx:yyyy:zzzz:zzzz:zzzz:zzzz
+0C [------------------------------] And the subnet is FDxx:xxxx:xxxx:yyyy::/64
+10 [------------------------------] [128 bits] For the edestination, I'll use the IPv6 loop back address ::1
+14 [        DESTINATION ADDRESS   ] I used to hate IPv6 cause its long but you can abbriviate it by taking  lot of zeros and writing it as '::'
+18 [                              ] so ::1 really means 0000:0000:0000:0000:0000:0000:0000:0001 and fd00::abcd means
+1C [------------------------------] fd00:0000:0000:0000:0000:0000:0000:abcd. Yeah, super long but remember the '::' thing to shorten it.
+20 [Source port   ][dest port     ] [16 and 16 bits] Copied form TCP header.
+24 [sequence index                ] [32 bits] Number of packets sent. BUT it dosn't have to start with zero. Its just there to keep the packets in order.
+28 [acknowledgement index         ] [32 bits] Writing a number here means "I have receaved all packets up to and including this number"
+2C [offset        ][checksum      ] [16 and 16 bits] Ofset: the length of the header in 32 bit words. (Allows for entended headers) Checksum: see below.
+30 [Length                        ] [32 bits] Length of data in bytes. The highest possable number you can put here is 4294967296 or 4 Gigabytes.
+34 [FLAGS                         ] [32 bits] Simaler to TCP flags. See below. 
+38 DATA GOES HERE!!!!!!!!!!!!!!!!!
+
+Lets fill in some numbers.
+
+SOURCE: fd17:2853:9368:1::21 [fd17:2853:9368:0001:0000:0000:0000:0021]
+DEST: ::1 [0000:0000:0000:0000:0000:0000:0000:0001]
+Source Port: 80 [The HTTP port]
+Destination port: 80
+Seq: 0 [For security reasons it should be random, this is just an example]
+Ack: 0
+Offset: $38 ($38 is hexadecimal, in decimal, its 3*16+8 wich is 56)
+Checksum: 
+[This is the entire header and data added together, as an unsigned short. If there it overflows, thats ok. The checksum is calculated
+as if the 'checksum' field is all zeros]
+Length: 0 [Theres no data here]
+Flags: SYN
+
+Lets see what this would look like in hex.
+fd 17 28 53 93 68 00 01
+00 00 00 00 00 00 00 21
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 01
+00 50 00 50 00 00 00 00
+00 00 00 00 00 56 XX XX
+00 00 00 00 01 00 00 00
+
+
+Lets calculate the checksum:
+
+def checksum(string,sep): #String is the hexdump, sep is the separator char
+    string=string.split(sep)
+    sum=0
+    for i in string:
+        sum+=int(i,16)
+    print(hex(sum))
+    
+>>>checksum("fd 17 28 53 93 68 00 01 00 00 00 00 00 00 00 21 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 50 00 50 00 00 00 00 00 00 00 00 00 56 00 00 00 00 00 00 01 00 00 00"," ")
+'0x3a4'
+
+So the checksum is 03 A4.
+
+SERVER:
+fd 17 28 53 93 68 00 01
+00 00 00 00 00 00 00 21
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 01
+00 50 00 50 00 00 00 00
+00 00 00 00 00 56 03 a4
+00 00 00 00 01 00 00 00
+
+And thats the first sync packet!
+Thats really it. Now we wait for the reveiver to say somthing
+
+Unlike TCP, either the server or the client can start the connection. It goes both ways!
+
+The server sends a SYN packet with an index of 0.
+The client sends a SYN/ACK/WNC packet with an index of 0, and a window size of 4.
+Server sends packets 1,2,3,4, but the client receves 1,2 and 4.
+Client sends ACK 2/SACK 3/WNC 1
+In TCP, the server will wait for ACK 2 at least three times but here, the client spesifically requests number 3.
+Server sends 3
+Client takes 3 and puts it in the right order, counts how many are correct, 1,2,3,4, and sends ACK 4
+Server sends 5,6,7,8
+Client sends ACK 8/WNC 8
+Server sends 9,10,11,12,13,14,15,16
+Client sends ACK 12/SACK 13,14
+Server sends 13,14
+Client says ACK 16/WNC 8
+Server sends packet 17 with the FIN flag
+Client sends packet 18 wich is FIN/ACK 17
+Server sends ACK 17 and the connection is closed.
+
+
+This example is gonna get crazy.
+Lets show the EXACT hex dump of sending somthing random over HTTP.
+
+First: The HTTP data getting sent. Lets say we want to get http://[::1]:80/hello.c
+and the hostname is 'localhost'
+>>> nc 127.0.0.1:80
+GET /hello.c HTTP/1.1
+Hostname: localhost
+
+The responce:
+
+HTTP/1.1 200 OK
+Date: Mon, 23 May 2005 22:38:34 GMT
+Server: Apache/1.3.3.7 (Unix)
+Connection: close
+#include<stdio.h>
+int main(){
+    printf("Hello world\n");
+    return 0;
+}
+[disconnected]
+
+Lets assume that the index starts with 0 and each line is a packet.
+
+Note from future self: LETS NOT!
+[Ends text file abruptly]
