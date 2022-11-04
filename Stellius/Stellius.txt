@@ -1,0 +1,13 @@
+Stellius
+[In terms of Sol]
+M = 1.2
+L = 2.0736
+D = 1.1444
+T = 1.096444
+V = 0.63
+Habitable zone start: 0.95*sqrt(1.2^4)
+Habitable zone stop: 1.37*sqrt(1.2^2)
+Frost line: 4.85*sqrt(L)
+
+
+//Orbits scale by 1.4 to 2
