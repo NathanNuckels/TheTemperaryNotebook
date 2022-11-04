@@ -1,0 +1,9 @@
+Lets make somthing like FTP.
+
+You probibly know the FTP command.
+It gives you 'ls' and 'get' and 'pwd' and all the normal linux commands
+in the FTP enviroment.
+
+WRONG! The RAW unencrypted FTP packets are actually not POSIX complient at all!
+
+So lets make a way less crappy (and more POSIX) version of that!
