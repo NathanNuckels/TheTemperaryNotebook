@@ -1,0 +1,107 @@
+DELETE THIS------
+Stellius
+[In terms of Sol]
+M = 1.2
+L = 2.0736
+D = 1.1444
+T = 1.096444
+V = 0.63
+//1.44
+
+Habitable zone start: 1.368
+Habitable zone stop: 1.9728
+Frost line: 6.984
+
+
+//Orbits scale by 1.4 to 2
+------------
+
+All orbits
+
+When I say 'simaler to' I mean interms of the size of the orbit,
+not the fetures of the planet.
+In perinthasies is the government of the planet.
+Sure earth may have roughly 150 countries
+but in world building, normally each planet is one country,
+and one spiecies. (Except the 'main character' planet, wich is Mosphere)
+
+0.12 INNER LIMIT
+0.162 [SKIPPED]
+0.22 insert mercury analog here. Lots of metal, but also flamin' hot.
+0.35 [DO NOT SKIP]
+0.668 I was thinking of putting somthing like venus here
+1.069 Simaler to Earth
+1.4 Aquerius (Anarchal Akverius) HABITABLE
+1.8 Mosphere-X86 (Communist Misferuus Empire*) HABITABLE
+3.5 Percius-394 (Pitan Dictatorship)
+5.7 Up for voting***
+ 6.984 FROST LINE
+8 Xavik [with rings]
+12.48 Voting****
+23.2128 Voting****
+33.42
+40 add some lil dumb drawf planet here larger than makemake but smaller than pluto
+46.79 
+47.895 add somthing like Pluto here. Cold, empty, people only go  for street cred.
+48 OUTER LIMIT. NO PLANETS BEOND THIS POINT
+49 Lets be quirky and put a dwarf planet at 49AU cause I want to.
+
+*Name under debate. 'Communist Mospheros' and 'Commuist Mofesia'
+are being considered. The boring 'Communist Mosphere' will NOT
+be used. We are thinking of adding 'Empire' to the end of the name too.
+Also thinking of 'MOSFET' like the transister. 'MOFSET' is a common
+typo.
+
+**Also under debate. Try 'Persaan', 'Purgean' (as in purge) or 
+'Perishan' (as in perish). 'Persion' and 'Persian' refer to the middle
+east, and 'Pegan' is also a real word (idk what it means) so they
+are not alloued. The term 'Confederacy' is also not alloued.
+Its "Per___an Dictatorship" and that is final.
+
+***This planet is up for viewers to vote on.
+Requirements: Must be terrestrial, Should be simaler to Percius in
+radius, It has large ice caps and be like Mars but orange.
+(Mars has iron oxide wich is red, and this place also has sulpher
+wich is yellow and red + yellow = orange. Note: The orange is
+closer to red than yellow) Its name and whether it has a government,
+are also up for you to decide!
+
+****This planet is up for viewers to vote on.
+Requirements: Must be a gas giant, Must not be pure hydrogen,
+No clue what its core will be made of, 
+
+With the Solar system for referene:
+
+0.12 INNER LIMIT
+0.162 [SKIPPED]
+0.22
+0.35
+  0.5 Mercury
+0.668
+  0.7 Venus
+  1 Earth
+1.069
+1.4 HABITABLE
+  1.66 Mars
+1.8 Mosphere HABITABLE
+  2.98 Ceris
+3.5
+  5.4 Jupiter
+5.7
+6.984 FROST LINE
+8 Largest gas giant
+  10.1 Saturn
+12.48 Put the Jool analog here
+  19 Uranos
+23.2128
+  29.5 Pluto (Closest)
+  30 Neptune
+33.42
+  38 Makemake (Closest)
+  38 Eris (Closest)
+46.79 
+48 OUTER LIMIT
+  50 Pluto (Farthest)
+  52 Makemake (Farthest)
+  97 Eris (Farthest) (How the heck is this orbit even stable)
+  
