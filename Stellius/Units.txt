@@ -1,0 +1,55 @@
+Most units are mesured in tems of Earth. Multiply them by these
+to get the full result
+
+For referene, 'Solar' refers to the sun, 'Terran' refers to
+Earth, and 'Jouvian' refers to Jupiter.
+
+Prefixes:
+  Each prefix is 1000 times larger than the last.
+  yx yocto
+  zx zepto
+  ax atto
+  fx femto
+  px pico
+  nx nano
+  mcx micro
+  mx milli
+  cx centi
+  dx deci
+  x
+  kx Kilo
+  Mx mega
+  Gx giga
+  Tx terra
+  Px peta
+  Ex exa
+  Zx zetta
+  Yg yotta
+
+1 Terran Mass = 5972.17 Yottagrams or 5.97217 * 10^24 kg
+1 Jouvian Mass = 1898130 Yottagrams or 1.89813 * 10^27 kg = 317.82838 Terran Masses
+1 Solar Mass = 1988470000 Yottagrams or 1.98847 * 10^30 kg = 1047 Jouvian masses
+Terran Dencity = 5.514 g/ccm
+1 g = 9.80665 m/s^2
+1 Terran Radius = 6371 km
+Terran Year = 1.00001742096 Terran "Years"* or 365.256363004 Terran days
+Symbalic Terran Rotation Period = 24h 00m 00s
+Siderial Terran Rotation Period = 23h 56m 4.100s
+Terran Orbital Velocity = 29.78 km/s
+Terran Escape Velocity = 11.186 km/s
+
+1 AU = 149.6 Gm
+1 MS = 1.8 AU = 269.3 Gm
+1 AU = 0.555555 MS (5/9ths)
+360 Degrees in a circle
+256 les in 1 ler, 256 Ler in a circle.
+1 Mero (Half a mosphere year) is 1.10227038425 Years.
+1 Mero is 1 Year, 37 Days, 7 Hours, 53 Minutes, 18 secconds and 837 millisecconds.
+
+*A terran year is the time it takes the earth to orbit the sun.
+A terran "year" is 365 days.
+
+360 DEG = circle = 256 LER
+1.40625 DEG = 1 LER
+0.00549316406 DEG = 1 LES = 19.775390616 Secconds
+(A degree is 60 minutes, and 1 minute is 60 secconds)
