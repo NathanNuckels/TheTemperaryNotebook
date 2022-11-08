@@ -4,27 +4,29 @@ MESUREMENTS
 
 1 AU = Distance from Earth to Sol,
 1 MS = distance from Mosphere to Stellius,
-360 Degrees in a circle, 256 Ler in a circle.
+360 Degrees in a circle, 
+256 Les in a ler, 256 ler in a circle.
 X eY = X*(10^Y)
 1 Mero (Half a mosphere year) is 1.10227038425 Years.
 1 Mero is 1 Year, 37 Days, 7 Hours, 53 Minutes, 18 secconds and 837 millisecconds.
 
 ORBITAL DATA
 
-Semi-major Axis: X Km , 1.8 AU, 1 MS
+Semi-major Axis: 269.3 Gm, 1.8 AU, 1 MS
 Eccentricity: 0.001
-Inclination: 0.00000 DEG, 0 LER
+Inclination: 0.00000 DEG, 0 LER I 0 LES
 Apogee: 1.8018 AU, 1.001 MS
 Perigee: 1.7982 AU, 0.999 MS
-Orbital Period: 2.2045407685 Years, 2.00000 Meros
-Or 2 Years, 74 Days, 15 Hours, 46 Minutes, 10 secconds and 674 millisecconds
+Orbital Period: 2.2045407685 Years*, 2.00000 Meros
+Or 2 Years*, 74 Days, 15 Hours, 46 Minutes, 10 secconds and 674 millisecconds
 Orbital Velocity: 0.40824829046 x Earth
 
 PHYSICAL DATA
 
-Mass = 1.07 x Earth
-Radius= 1.15 x Earth
-Gravity = 0.8318 x Earth 
-Dencity = 1.3826 x Earth
+Mass = 1.07xE
+Radius= 1.15xE = 
+Gravity = 0.8318 x 9.80665
+Dencity = 1.3826 x 5.514
 
-
+* Assumes a year is EXACTICALLY 365 days.
+One Siderial year is roughly 365.256363004 days.
