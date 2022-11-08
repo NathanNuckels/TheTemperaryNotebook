@@ -1,0 +1,26 @@
+Mosphere-x86
+
+
+ORBITAL DATA
+
+1 AU = Distance from Earth to Sol,
+1 MS = distance from Mosphere to Stellius,
+360 Degrees in a circle, 256 Ler in a circle.
+X eY = X*(10^Y)
+1 Mero (Half a mosphere year) is 1.10227038425 Years.
+1 Mero is 1 Year, 37 Days, 7 Hours, 53 Minutes, 18 secconds and 837 millisecconds.
+
+
+
+Semi-major Axis: X Km , 1.8 AU, 1 MS
+Eccentricity: 0.001
+Inclination: 0.00000 DEG, 0 LER
+Apogee: 1.8018 AU, 1.001 MS
+Perigee: 1.7982 AU, 0.999 MS
+Orbital Period: 2.2045407685 Years, 2.00000 Meros
+#TODO: Multiply the number below by 2
+Or 1 Year, 37 Days, 7 Hours, 53 Minutes, 18 secconds and 837 millisecconds
+Orbital Velocity: sqrt(1/6) [Units Unknown]
+
+
+Distance form star: 1.8 AU
