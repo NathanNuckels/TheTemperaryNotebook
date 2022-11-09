@@ -1,0 +1,16 @@
+Semi-major Axis:
+Eccentricity: 
+Inclination:
+Apogee: a(1+e)
+Perigee: a(1-e)
+Orbital Period: sqrt(a^3/M) [Star mass in solar mass]
+Orbital Velocity: sqrt(M/a)
+
+Mass: 
+Radius: 
+Gravity: m/r^2
+Dencity: g/r
+
+MS = AU/1.8
+DEG * 1.40625 = LER * 256 = LES
+DEG * 0.00549316406 = LES
