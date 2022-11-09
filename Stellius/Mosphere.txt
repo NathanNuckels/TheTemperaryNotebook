@@ -30,7 +30,14 @@ Dencity = 1.3826xE, 7.6236564g/cm3
 
 COMPPOSITION
 
+//The orange dashed line on the graph.
+//Please send details I don't remember what that like is EXACTICALLY
+//but i do know that it is 75-ish% sillacate like earth and mars.
 
+The planet is 76% sillacate with a 24% iron core.
+//PLEASE VERIFY WITH ARTIFEXIAN. 
 
 * Assumes a year is EXACTICALLY 365 days.
 One Siderial year is roughly 365.256363004 days.
+
+LORE
