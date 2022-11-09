@@ -1,0 +1,34 @@
+Xiraŋ (Commonly misspelled as Hirang)
+
+ORBITAL DATA
+
+Semi-major Axis: 0.668 AU, 0.371 MS
+Eccentricity: 0.12
+Inclination: 4.32 DEG, 3 LER I 18 LES
+Apogee: 0.668(1.12) AU, 0.668(1.12)/1.8 MS
+Perigee: 0.668(0.88) AU, 0.668(0.88)/1.8 MS
+Orbital Period: sqrt(0.668^3/1.2) Years, or years, days, hours.......
+Orbital Velocity: sqrt(1.2/0.668)
+
+PLYSICAL DATA
+
+Mass = //Please check the magic planet graph
+Radius = 
+Gravity = 
+Dencity = 
+
+COMPOSITION
+
+//See the graph thingy
+
+SUMMARY
+
+LORE
+
+
+Xirañ or Xiraŋ /xi.raŋ/ ((HHSHEE-RANG)) ((The /x/ is like the <CH> in <LOCH NESS>))
+Simaler to Mercury,
+Contains loads of iron,
+Hit by solar flares a lot.
+Grey. Just all grey. Everything's grey.
+Like Mercury, its the boring planet and also the boiling planet.
