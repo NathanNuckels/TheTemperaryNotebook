@@ -1,0 +1,50 @@
+Lets calculate the transfer window!
+
+but first, I want to see if I can calculate orbital periods
+(transfer windows rely a lot on orbital periods)
+
+So I'll calculate it for Kerbin.
+
+T = tau*(sqrt(a^3/GM))
+where tau is 2*pi
+      a is the semi major axis
+      M is the mass of the star
+      and G is the magic gravity number idk
+M*G for Kerbol is 1172332800000000000 cubic meters per seccond squared.
+Semi-major axis os Kerbin is 13599840256m
+a^3/GM is 2145608600000
+Wich gives the final result of
+9203544.55231.... secconds? days? I guess We'll find out.
+According to the wiki, the orbital period of Kerbin is
+9 203 545 seccods.
+Wow, Thats like, spot on!!
+
+Anyway, for the rest of this, we will just use the ones off of the wiki.
+
+
+//
+First thing is to figure out how long it will take to get from Kerbin ot Duna.
+
+Lets make a hypothetical transfer orbit. Make the periapsys Kerbin,
+and the apolapsys Duna
+Q = 20726155264m q = 13599840256m
+To see how long it will take to travel arround this orbit, we need the orbital period,
+and to get the period, we need to get the semi-major axis.
+Also, the prbital period is how long it takes to do one full orbit,
+a round trip. We only want half of that. If you mash all of this into an equation,
+you get this.
+
+sqrt(((Q+q)/2)^3/GM)*pi*2
+wich is
+sqrt(((1359984025+20726155264)/2)^3/1172332800000000000)*pi
+ = 3367124.1631 secconds.
+
+Heres why transfer windows are important, Duna, Kerbin, and you all move at different speeds.
+The speed of Kerbin dosn't matter right now but you need to know how far Duna will move.
+You will go 180 degrees arround the transfer orbit and it will take roughly 3367124/21600=
+155.8 in game days. You will go 180 degrees. How far will duna travel?
+Well, a full duna orbit is 17 315 400 so its basic math.
+Duna * X = You
+You / Duna = X
+3367124/17315400 *360 = 70 (the * 360 is to make it in degrees)
+The correct andwer is 44.......
