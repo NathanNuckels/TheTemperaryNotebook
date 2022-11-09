@@ -1,0 +1,17 @@
+Click 'start game' then 'new game'.
+
+Make sure it is in science mode.
+Sandbox mode gives you infinite resources and
+career mode limits your resources.
+Science mode is a happy inbetween where money is
+no object but you still need to unlock all the parts.
+
+It also limits the ammount of parts you have so that
+the only possible ons are the right ones for this tutorial ;)
+
+Unlike most of my writings, the KSP wiki is unblocked so I can
+provide a lot of details on now it all works!
+
+See the big tall building? Click it!
+
+Now you're in the Vheical Assembly Building, or VAB.
