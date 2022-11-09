@@ -28,6 +28,8 @@ Radius= 1.15xE, 7326km
 Gravity = 0.8318 G, 8.15717147m/s2
 Dencity = 1.3826xE, 7.6236564g/cm3
 
+COMPPOSITION
+
 
 
 * Assumes a year is EXACTICALLY 365 days.
