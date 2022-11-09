@@ -1,0 +1,42 @@
+Go Play In Space KSP
+Loosly based on Go Play In Space by Bruce Irving
+
+I know this book is supposed to be about Kerbal Space Program
+but I'm going to talk about the technical details of some other games.
+
+Getting games to work on Linux is very easy.
+
+KSP has a native Linux version. If it dosn't work, you can make steam
+use Valve Proton if neccisary. (Search '!archwiki steam' in duckduckgo 
+for details)
+
+Running CKAN on Linux needs mono, wich I assume is a fork of wine.
+The linux version of CKAN usually dosn't work.
+get the windows version and run it through mono.
+('mono CKAN.exe')
+Mono can be installed through your local package manager (pacman -S mono)
+probibly. On arch based distros, make sure you enable multilib in
+/etc/pacman.conf.
+
+Now that you're in CKAN, I have a few segestions.
+Click filters, then tags, then convienence. Then add 'is:compatible'
+in the search bar and scroll through to see if you find anything you like.
+Make sure to get Kerbal Engineer Redux.
+
+If you have a beefy computer you might beable to handle
+visual mods. Get Enviromental Visual Enhancements,
+Astronomers Visual Pack, Scatterer, and Waterfall.
+When you install them you will need to select what
+size texures you want for AVP and what solar flare you want for
+Scatterer.
+
+I tested these visual mods on an AMD Rysen 9 Radeon 6800 on Artix Linux
+and it worked and was beutiful, but be warned! I also tried it on an old
+laptop with an nVidia GeForce GTX 1060 on Windows NT 11 and although it
+was beutiful as well, it was EXTREEMLY slow and you couldn't touch the bottom
+of the laptop without burning yourself so when I say you need a good computer,
+I mean a GOOOOOD computer!!
+
+Now you can launch the game.... Now what?
+
+
