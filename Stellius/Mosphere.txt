@@ -17,16 +17,18 @@ Eccentricity: 0.001
 Inclination: 0.00000 DEG, 0 LER I 0 LES
 Apogee: 1.8018 AU, 1.001 MS
 Perigee: 1.7982 AU, 0.999 MS
-Orbital Period: 2.2045407685 Years*, 2.00000 Meros
+Orbital Period: 2.2045407685 Years*, 2.00000000 Meros
 Or 2 Years*, 74 Days, 15 Hours, 46 Minutes, 10 secconds and 674 millisecconds
-Orbital Velocity: 0.40824829046 x Earth
+Orbital Velocity: 0.40824829046xE, 12157.634m/s
 
 PHYSICAL DATA
 
-Mass = 1.07xE
-Radius= 1.15xE = 
-Gravity = 0.8318 x 9.80665
-Dencity = 1.3826 x 5.514
+Mass = 1.07xE, 6390Yg (6.39x10^24kg, 6390000000000000000000000kg)
+Radius= 1.15xE, 7326km
+Gravity = 0.8318 G, 8.15717147m/s2
+Dencity = 1.3826xE, 7.6236564g/cm3
+
+
 
 * Assumes a year is EXACTICALLY 365 days.
 One Siderial year is roughly 365.256363004 days.
