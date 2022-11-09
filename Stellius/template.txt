@@ -1,0 +1,22 @@
+ORBITAL DATA
+
+Semi-major Axis:
+Eccentricity:
+Inclination:
+Apogee:
+Perigee:
+Orbital Period:
+Orbital Velocity:
+
+PLYSICAL DATA
+
+Mass = 
+Radius = 
+Gravity = 
+Dencity = 
+
+COMPOSITION
+
+SUMMARY
+
+LORE
