@@ -52,6 +52,14 @@ warmstart
         ;set everything from $0400 to $07FF to all be $02 to clear the screen
         lda #$20
         ldx #0 ;depending on your compiler, you might need to write #$00 instead
+.loop   sta $0400,x
+        sta $0500,x
+        sta $0600,x
+        sta $0700,x
+        dex
+        bne .loop
+Program
+        ...
         
         
 
@@ -62,6 +70,24 @@ warmstart
         ;This says '255 SYS2061' in basic. I hope...
         ;         255  SYS 2  0  6  1
         .HEX 0A08 FF00 9E 32 30 36 31 000000
-        ;disable basic rom
-        ;enable lowercase
-        ;clear screen
+        
+warmstart
+        ;set bit 0 of $0001 to 0 to disable BASIC
+        lda $01
+        and #%11111110
+        sta $01
+        ;set bit 1 of $D018 to 1 to enable lowercase
+        lda $d018
+        ora #%00000010
+        sta $d018
+        ;set everything from $0400 to $07FF to all be $02 to clear the screen
+        lda #$20
+        ldx #0 ;depending on your compiler, you might need to write #$00 instead
+.loop   sta $0400,x
+        sta $0500,x
+        sta $0600,x
+        sta $0700,x
+        dex
+        bne .loop
+Program
+        ...
