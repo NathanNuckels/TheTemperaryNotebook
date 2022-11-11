@@ -1,0 +1,34 @@
+MISSION 4 - Night Rider I
+
+Were going to Minmus, in dark theme!
+
+    MK16 parachute
+    MK1 command pod
+    heat shield
+    decuppler
+    science jr
+    serivce bay
+        [2] Mystery goo
+        [2] Baromiter
+        [2] Thermomiter
+    FLT-400
+        Landing legs
+    Terrier
+    decupler
+    FLT-400
+    FLT-400
+    FLT-400
+    FLT-400
+        [4] Sideways decupler
+            [4] Hammer SRBs
+        [4] Fins
+    Swivel
+
+Make sure the Hammers and the Swivel are on the SAME STAGE!!
+
+01. SAS on
+02. Stage
+03. wait for 100m/s
+04. Tap east
+05. turn at a rate where you're at 60 at 5km and 45 at 10km
+06. 
