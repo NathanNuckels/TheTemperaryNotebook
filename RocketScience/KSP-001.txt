@@ -1,0 +1,96 @@
+MISSION 1 - Mx1
+Lets get this started.
+
+    MK16 parachute
+    MK1 command pod
+    Flea Engine    [3] Science Goo
+     
+Instructions:
+1. Crew report
+2. Mystery goo
+3. EVA, eva report, surface sample, take data
+4. launch
+5. at flameout, mystery goo
+6. at apogee, crew report, and eva report.
+7. when landed, crew report, surface sample, and EVA report
+8. recover for 52 science!
+
+Invest heavly in the bottom and top of the tech tree.
+Unlock the following:
+
+Basic Rocketry
+Engeneering 101
+Survivability
+General Rocketry
+
+MISSION 2 - Mx2
+Lets go to space!
+
+    MK16 parachute
+    MK1 commmand pod
+        [2] Radial Droge chute
+    Service bay
+        [3] Mystery goo
+        [2] Baromiter
+        [2] Thermomiter
+    Heat shield
+    Decuppler
+    FLT-200
+    FLT-200
+    FLT-200
+    FLT-200
+    FLT-200
+    Swivel
+
+1. Crew report, EVA report, baromiter, thermomiter, surface sample.
+2. Enable SAS
+3. Launch and prepare for a gravity turn.
+4. Head streight up for arround 5 to 10 secconds.
+5. Start pitching north.
+6. Turn at a rate where once you reach 10km, you should be at the 45 degree line.
+7. Keep at 45
+8. Watch your apogee. Get it to arround 100,000. Tilt UP to make it go up.
+9. Watch your tragectory's length. Go sideways to make it longer.
+10. Nervoiusly wait for 70km
+11. After 70km Do science! Mystery goo, Barromiter, thermomiter, crew report, and EVA report. Do it all!!!
+12. Remember to take the data from the commmand pod on EVA so you can do another crew report.
+13. Wait for 70km
+14. Watch the overheat meter on the engine. Stage right before it gets full.
+15. Stage again for the parachutes if you havnt already.
+16. Turn off SAS
+17. Once its safe, do a crew report and a mystery goo and baromiter and temperture
+18. If you're feeling REALLY luckey, you can try to mabee kinda do an EVA report. Just try not to die in the porcess though...
+19. Land. Just sit and wait. Nothing to see here.
+20. Once on the ground, DO SCIENCE! crew report, eva report, surface sample, baromiter, thermomiter, do all the things.
+21. Want to plant a flag? It feels odd putting it on your home planet but do it. Just for fun.
+
+Now you have 100-ish science
+
+Unlock these:
+Basic Science
+If you can afford it, get advanced rocketry and stability.
+If you can't, do this next mission.
+
+With Basic Science, you now have the Science Jr, the most powerfull early/mid game item!!
+
+
+MISSION 3 - Mx 3
+We need a little more science
+
+    MK16 parachute
+    MK1 Command pod
+    Science Jr
+    Heat Shield
+    Decuppler
+    FLT-400 If you havn't unlocked advanced rocketry, just use two FLT-200s
+    FLT-400 This part is exactically the same as the rocket above.
+    FLT-200
+    Swivel
+
+BEFORE YOU CLICK LAUNCH
+make sure ther is a SCIENTIST in the rocket!
+
+All the steps are the same as above but sue the Science Jr.
+Use it on the launchpad, in space, and while waiting to land and after you land.
+
+Ok. Now you're ready to leave Kirbin!
