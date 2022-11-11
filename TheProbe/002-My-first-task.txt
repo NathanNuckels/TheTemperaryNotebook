@@ -5,3 +5,64 @@ Its powered by fusing hydrogen into helium. You can also take helium and fuse it
 into oxygen but the helium is shot out of it at extreemly high speeds
 and you aint getting it back. Anyway, I need hydrogen, and I can get it from
 Tellus-IV. Thats the fourth planet.
+
+T-IV's semi major axis is 227939366km
+My semi major axis is     302738377km
+
+If I'm going to get to the planet efficiently, the planet and I
+must arrive at the same place at the same time. To do that, whoever
+is in a higher orbit, wich is me, would need a head start.
+
+Lets draw a hypothetical transfer orbit with an apolapsys of
+where I am now and a periapsys at Tellus-VI. Average those two
+numbers to get the semi-major axis.
+You get 265338871km in meters is 265338871000.
+Using this, you can get the orbital period.
+Cube it to get 18681107798*10^25, devide by Tellus's
+standard gravitational peramiter wich I'm told is
+1.32712440018*10^20, to get 140763, square root it and multiply by 2 pi
+to get...
+74546175.37 wich is roughly 850 days but we only need to go half way
+so cut it in half to get the travel time wich is 37273087 secconds
+or 430 days.
+
+The orbital period of Tellus-IV calculated the same way is...
+about 680 days. Oh, and by the way, I have it calculated down to
+the seccond. I'm just writing it like this for my organic companions
+to understand.
+
+So if Tellus-IV takes 680 days to make an orbit, how far would it get in
+only 430 days?
+
+If you take 430 days and devide it by 680 days you get the percentage of the orbit
+it travels wich is 125.5949888%. If you multiply by 360 you get degrees
+wich is 452.1 degrees. Subtract it from 180 to see how much of a head start
+Tellus-IV needs. You get -272 degrees. Since its negitive, it means that either
+I need the head start of 272 degrees OR it needs a head start of 87 degrees
+depending on how you look at things.
+
+[There is a long pause]
+
+Where's my map...
+
+[Another pause]
+
+Oh wouldn't you look at that! Its about 90 degrees ahead right now!
+That autopiolet might not be sentient but it seems to really know what its doing!
+As i said, the optimal value is 87 and its shrinking so I got time to plan a burn.
+
+I want to just to into a deep sleep and have the auto piolet handle everything but
+1. The autopilot probibly won't wake me up untill I missed the manuver and
+2. The autopilot dosn't know I want to go to Tellus-IV in the first place!
+
+You know what that means... more math for me...
+
+Once again, I dont know EVERY equation but I do have an enormous collection
+of man pages- er- manual pages that basically describe everything there is to know about astrophysics,
+and then some.
+
+So I need to lower my orbit to match the transfer orbit.
+Lets calculate its eccentricity. Wait, no. Lets not.
+To lower my orbit I need to slow down and fire my engine retrograde.
+Point my engine tward the direction that I'm going. Deccelerate.
+...I don't think I can explain that any more...
