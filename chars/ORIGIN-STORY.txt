@@ -1,0 +1,134 @@
+This is the story of TEKNIQ, not the best engineer,
+but definitly the most clever one.
+
+He started out as a dragon that looked simaler to @SUSHI_FUR
+and he built a protogen visor and wore it all the time.
+This caused him to look very odd to all the real protogens
+as he was less reptilian and more organic. Luckly for him,
+there was a fasion trend happening where protogens ditched
+a lot of their armor and tried changing their faces. TEKNIQ
+noticed that not all Protogens could program, and created some
+software wher instead of teh BIOS drawing their face, the OS
+would do it. He made it very easy to edit. Just a config file
+and a SVG file. Then he realized that it only worked on himself.
+
+Kelides limped over to him.
+KELIDES: D-Docter?
+TEKNIQ:Uhh, I'm an engineer.
+KELIDES: Same t-thing. Need your help. Low battery. Talk later.
+
+He took Kelides in and charged him up.
+TEKINQ: I also do software for Linux and stuff but I don't work with
+living things.
+KELIDES: Well, luckey you, I'm dead! ...technically.
+TEKNIQ: W-wha-
+KELIDES: Oh ya know, killed in the Percius war but man tech these
+days got me feeling kinda sorta not dead yet.
+TEKNIQ: Uhhh...
+KELIDES: So... software?
+TEKINQ: Uh yeah.. Just a thing to change your face. But it only works---
+[Kelides picks up an M.2 drive and stares at it. He slides it into his head
+between his ears.]
+[His faces changes to a lot of different colors.]
+KELIDES: Cool.
+TEKNIQ: B-But it only works on me!
+KELIDES: Where's the source code... here it is.
+KELDIES: It dosn't work on LEAGAL protos. It works on us becasue we arn't
+technically Protogens. 
+TEKNIQ: Has anyone jailbrak-ed a proto before?
+KELIDES: [smug] Not yet.
+[He hands the drive back to TEKNIQ]
+KELIDES: On start up, The FL-OS kernal is started. The kernal handles
+the hardware and stuff. Its very complicated, but theres this little thing,
+Linus's UNIX. LINUX if you will... Its a kernal. Premade. Use it.
+TEKNIQ: How to I make the OS? How to I compile the code?
+KELIDES: A team of people called GNU made some tools. Like, a LOT of tools.
+You can use them as your OS, but it won't be good. Use them as the tools
+to compile someone elses code. GNU is great, but you need a lot more than that
+if you want somthing fancy.
+TEKNIQ: Oh, that dosn't sound to hard... for me at least.
+KELIDES: One problem. FL-OS isn't just the OS. Its also the BIOS and those
+BIOS will refuse to boot to anything else.
+TEKNIQ: Can I make my own BIOS?
+KELIDES: No, you'd have to understand the exact hardware of a true protogen
+down the the wire and know exactically how it connects to the nerves of
+Sergals and Avali and such. No one in this universe knows that much.
+TEKNIQ: What if you took the BIOS and tricked it into booting to Linux?
+KELIDES: Good idea. I was a protogen when I was alive with original
+locked down BIOS and everything. Now that I'm a zombie, I'm basically
+just a regular computer. I replaced it with somthing much simpler
+to make hacking easier but I still have a copy of the original.
+Can you slip that drive back in my ear?
+[TEKNIQ puts the drive in Kelides's ear]
+KELIDES: Put it in that black slot.
+[It clicks]
+KELIDES: Ok. I got you a textbook on assembly language, a list of opcodes
+for common proto processors, and the raw data from my old BIOS chip.
+With that list of opcodes you should be able to decompile the code
+and with a bit of hard work, you might be able to figure out how it works.
+KELIDES: Also as a bonus, you can try figuring out what memory addresses
+go to what nerves or whatever.
+TEKNIQ: I- I want to try.
+KELIDES: Are you a computer?
+TEKNIQ: no.
+KELIDES: Do you have a computer?
+TEKNIQ: no.
+KELIDES: W-Wha- Ok. Just use me.
+KELIDES: Oh, and by the way, there are a lot of different species, all with
+different biology. It would hock into their brains differently, and have different
+wireing, and definitly ahve different code. Also, the same code could be on a
+different processor with a different archetecture wich would have its own opcodes.
+The 'load value to cache' command will be written differently on different processors
+and the function that reads brain activity will deffinitly differ between species.
+TEKNIQ: So there ould be millions of different BIOS sertups?
+KELIDES: Exactially. Mine is MakéMaké 64 bit archetecture and If I recall correctly,
+I was a Sergal.
+TEKNIQ: Ok. I'll rename the file to note that.
+KELIDES: Also, that opcode cheat ssheet is for AMD 64.
+TEKNIQ: Yeah, It says it right there.
+KELIDES: Ok. One more issue. X86 is NOT the same as X86-64. X86-64 is
+the same as AMD64. Anything with "AARCH" in it is aarch64. Anything
+with "ARM" in it is either ARMv7 or ARMv8. If it isn't either one of those,
+I can't help you. Also, If someone says Their processor is the M3 or M1,
+thats Makémaké.
+TEKNIQ: Ok. I'm off to collect some code!
+[Yelling as TEKNIQ walks out the door]
+KELIDES: Remember, SkyLake is not an archetecture!!
+
+-------
+
+[Showing a preadsheet]
+[On the left it says:]
+[Sergal, Avali, Otter, Fox, Lynx]
+[The top says:]
+[MakeMake, x86_64, x86, ARMv7, ARMv8, AARCH64, PPC]
+[The boxes for (Otter, PPC), (Lynx, MakeMake), and (Fox, ARMv7) are crossed out]
+[The box (Sergal, MakeMake) is green]
+
+[Montouge of TEKNIQ talking to others]
+
+[Talking to Budder (From u/HearterMobs)]
+[Colors (Avali, x86_64) green]
+
+[Talking to a protogen with horns, fills in (Lynx, AARCH64)]
+
+[etc]
+
+[etc]
+
+[Coloring (Otter, Makemake) green]
+
+[One screen with some random numbers, the other with a list of opcodes]
+[http://ref.x86asm.net/coder64.html]
+
+[Close up of TEKNIQ looking proud]
+
+[Camera zooming out on a wall filled with tiny writing]
+[In the top left, there are the x86-64 registers]
+[https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf]
+[Down from that, there are some Commodore 64 kernal subroutines]
+[On the right, there is a drawing of a RPi]
+[Copy some junk from the table of contents for that paper i linked]
+[basically fill the space]
+
+To be continued...
