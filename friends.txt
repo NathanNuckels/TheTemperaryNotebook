@@ -1,0 +1,47 @@
+(see friends-old.txt for the insperation)
+
+I only have one friend. If I tried to define what a friend is, I would just list the qualities of
+that friend. However, I have a lot of not-friends. I can averate them all together to get the ultamate anti-friend,
+and then invert it to get the definition of a friend!
+
+TL;DR: I don't know what friends are but I do know what not-friends are.
+
+Things that automatically make you an enemy:
+    Destroying somthing I created.
+        Example: [REDACTED] Attempted to burn the forbiddden notebook with a lighter (Where did they even get it though??)
+        Example: The school put malware on my server, therefore destryoing the digital copy of the forbiden notebook, the blasphemous notebook, and
+        my entire code base.
+    Blackmailing me.
+        Example: [UNKNOWN] MIGHT have started the rumr that I write a list of everytime someone breaks a rule
+        and "five strikes and you're out" dude, I havn't done that since eventh grade!!!
+    "Becasue I said so!"
+        Example: [REDACTED] effectivly stated that the more gratful I am, the less gratitude I am showing.
+        When I tried to correct them, I was punished for [REDACTED].
+        Example: [REDACTED] also said (at a different time) that I should not be turning off m computer becasue
+        I need to be turning off my computer. I was later punished for [REDACTED]
+    Digs through my data
+        Example: Google. Ned I say more? This is why my desktop computer has no microphone...
+        Example: The black laptop is frequently searched. I had to make the pink laptop so difficult to use
+        that no one could search it. (I inatalled artix linux with open-rc and I3 window manager, wich ahs a steep learning curve
+        that my parents can't figure out)
+        Counter-Example: My parents don't give a crap what happens from 22:30 to 06:00 as long as I don't
+        leave my room. I used this to my advangage by drawing on a whiteboard and taking pictures of it with an old camera.
+        I then took the memory card out and eraced the whiteboard to hide the evidence.
+        Counter-Example: They evesdrop on my therapy but this is purely accidental.
+        Example: The school has a keylogger on the chromebooks. Some one is watching my type this at this very moment.
+        I know who you are.
+        Example: The school will dig through the file names and possibly the data on any device plugged into it.
+    Empty Threats
+        Example: I am guilty of writing "THIS INCIDENT WILL BE REPORTED" every time someone logs into my computer remotly
+        hovever I never actually check the logs. What really happens is the computer locks you out and thats it.
+        Example: The school's block filter claims to be undefeatable. This is false. Open task manager, look for [REDACTED] and
+        kill it. Then mash refresh on whatever and it will open. Block filter defeated! Never do this though or someone will hunt you down!
+    Major Disputes
+        Example: The school is trying to destry The Forbidden Notebook and discourages me from writing poetry.
+        Example: The school doscourages poetry.
+        Example: The school discourages creativity.
+        Example: The school discourages having a life outside of school
+Things that can go either way:
+    Minor issues
+        ....
+    Talking
