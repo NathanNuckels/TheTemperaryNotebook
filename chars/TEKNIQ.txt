@@ -1,0 +1,129 @@
+Name: TEKNIQ /tek.nɪk/, sometimes /te.kən.nɪk/
+English Name: TEKNIQ, The Engineer!
+Hypervisor Name: TEK.NIK or TE.KEN.NIK
+Race: Protogen
+Pronouns: Male; he/him
+Magic: Electronics
+Status: Alive (Lost in EP03)
+Secret: He is a dragon
+Favorate Song: "Way Less Sad" by AJR
+Quote: "Take me anywhere!!"
+
+"TEKNIQ is happy-go-luckey but Kelides
+is bored-stop-tragic."
+
+PLHYSICAL APPERANCE
+
+A Protogen with white fur and his visor can only display
+light blue and cyan. His belly is tan and to match the others,
+his legs are black. His arms look like circut boards (PCBs).
+His upper arms are dark green and his forearms are dark blue.
+The copper lines on his arms follow a spesific patern.
+See TEKNIQ-arm.png for an example.
+
+PERSONALITY
+
+TEKNIQ: I support you, I'll help you through this.
+KELIDES: [sarcastic] Yay... Out of the three billion people on this planet,
+One of them agrees with me.
+TEKNIQ: Remember, the difference between 2 and 1 isn't as much as the
+difference between zero and one~!
+
+TEKNIQ is happy all the time and no one knows why.
+When TEKNIQ is frustrated and gets mad, their roles reverse.
+Kelides becomes the nice one and TEKNIQ runs away.
+
+MORE QUOTES
+
+"One is closer to two than it is to zero."
+Saying that anything is better than nothing.
+
+Before any large orbital manuver, the smol bean always
+says "Take me anywhere!". This is referencing Anywhere by
+Carson Elliot. Onc ewe get permission, we will play a little
+bit of the song when he says it. Oh, and to seal the deal,
+Happy 20th, Elliot... Or is he 15?
+
+LORE / SECRETS
+
+He started out as a dragon that looked simaler to @SUSHI_FUR
+and he built a protogen visor and wore it all the time.
+This caused him to look very odd to all the real protogens
+as he was less reptilian and more organic. Luckly for him,
+there was a fasion trend happening where protogens ditched
+a lot of their armor and tried changing their faces. TEKNIQ
+noticed that not all Protogens could program, and created some
+software wher instead of teh BIOS drawing their face, the OS
+would do it. He made it very easy to edit. Just a config file
+and a SVG file. Then he realized that it only worked on himself.
+
+Kelides limped over to him.
+KELIDES: D-Docter?
+TEKNIQ:Uhh, I'm an engineer.
+KELIDES: Same t-thing. Need your help. Low battery. Talk later.
+
+He took Kelides in and charged him up.
+TEKINQ: I also do software for Linux and stuff but I don't work with
+living things.
+KELIDES: Well, luckey you, I'm dead! ...technically.
+TEKNIQ: W-wha-
+KELIDES: Oh ya know, killed in the Percius war but man tech these
+days got me feeling kinda sorta not dead yet.
+TEKNIQ: Uhhh...
+KELIDES: So... software?
+TEKINQ: Uh yeah.. Just a thing to change your face. But it only works---
+[Kelides picks up an M.2 drive and stares at it. He slides it into his head
+between his ears.]
+[His faces changes to a lot of different colors.]
+KELIDES: Cool.
+TEKNIQ: B-But it only works on me!
+KELIDES: Where's the source code... here it is.
+KELDIES: It dosn't work on LEAGAL protos. It works on us becasue we arn't
+technically Protogens. 
+TEKNIQ: Has anyone jailbrak-ed a proto before?
+KELIDES: [smug] Not yet.
+[He hands the drive back to TEKNIQ]
+KELIDES: On start up, The FL-OS kernal is started. The kernal handles
+the hardware and stuff. Its very complicated, but theres this little thing,
+Linus's UNIX. LINUX if you will... Its a kernal. Premade. Use it.
+TEKNIQ: How to I make the OS? How to I compile the code?
+KELIDES: A team of people called GNU made some tools. Like, a LOT of tools.
+You can use them as your OS, but it won't be good. Use them as the tools
+to compile someone elses code. GNU is great, but you need a lot more than that
+if you want somthing fancy.
+TEKNIQ: Oh, that dosn't sound to hard... for me at least.
+KELIDES: One problem. FL-OS isn't just the OS. Its also the BIOS and those
+BIOS will refuse to boot to anything else.
+TEKNIQ: Can I make my own BIOS?
+KELIDES: No, you'd have to understand the exact hardware of a true protogen
+down the the wire and know exactically how it connects to the nerves of
+Sergals and Avali and such. No one in this universe knows that much.
+TEKNIQ: What if you took the BIOS and tricked it into booting to Linux?
+KELIDES: Good idea. I was a protogen when I was alive with original
+locked down BIOS and everything. Now that I'm a zombie, I'm basically
+just a regular computer. I replaced it with somthing much simpler
+to make hacking easier but I still have a copy of the original.
+Can you slip that drive back in my ear?
+[TEKNIQ puts the drive in Kelides's ear]
+KELIDES: Put it in that black slot.
+[It clicks]
+KELIDES: Ok. I got you a textbook on assembly language, a list of opcodes
+for common proto processors, and the raw data from my old BIOS chip.
+With that list of opcodes you should be able to decompile the code
+and with a bit of hard work, you might be able to figure out how it works.
+KELIDES: Also as a bonus, you can try figuring out what memory addresses
+go to what nerves or whatever.
+
+Read more in ORIGIN-STORY.txt. I'm taking a break.
+
+
+INVENTIONS
+
+He was able to take his electronics and make them into a Protogen visor
+to make him feel better about himself. 
+
+OTHER FORMS
+
+//
+
+SECRETS
