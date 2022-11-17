@@ -131,4 +131,19 @@ KELIDES: Remember, SkyLake is not an archetecture!!
 [Copy some junk from the table of contents for that paper i linked]
 [basically fill the space]
 
-To be continued...
+TEKNIQ: Ok. Theres a private key created based off of your DNA and it refuses to boot
+unless the OS contains its matiching public key. This key can also be replaced.
+with any key and it will boot as long as it matches. The problem is you can't replace the
+key without directly replacing it in the BIOS code wich you can't write to.
+KELIDES: Oh.
+TEKNIQ: UNLESS---!
+TEKNIQ: You boot in debug mode! You can't delete the old key, but you can add new ones!
+KELIDES: Nice.
+TEKNIQ: One small issue, the way to activate debug mode depends on the species/archetecture combonation.
+TEKNIQ: Its different in all of them.
+KELIDES: So... Fox/aarch64 and Otter/ARMv7 are missing and you don't know how to boot to debing mode?
+TEKNIQ: Exactically.
+TEKNIQ: But we still got a lot of progress.
+KELIDES: Now all we gotta do is test it.
+[Cut to black]
+NARRATOR: And that is the story behind the Proto revolution.
