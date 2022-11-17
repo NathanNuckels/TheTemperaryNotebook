@@ -75,3 +75,21 @@ You can remember [l] from [ɹ]
 because the [l] one has a line sticking out to the left,
 and [ɹ] has a line sticking out to the right.
 
+Affricates are written by sort of mashing the letters together.
+
+```
+----------  ------------   ------------
+  |----|      |--/\--|           |----|
+[t][tʃ][ʃ]   [t][dʒ][ʒ]     [k][kx][x]
+```
+
+The phoneme /θ/ and /ð/ are not part of the language but are part of the writing system
+to make it more compatible with english.
+To show this contrast, all glyphs are angular except these ones. They are curvy.
+
+```
+--\         /--
+   |       |
+   \___  __/
+  [θ]     [ð]
+```
