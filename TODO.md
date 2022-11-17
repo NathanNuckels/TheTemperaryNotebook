@@ -1,0 +1,15 @@
+- [ ] Organize: `mv ~/eev/OTHERS/META ~/eev/OTHERS/OK`
+- [ ] Organize: `mv ~/blender/*xel*.blend ~/eev/MY_ART/PTP/Axel-IX.blend` (Move Axel.blend but I don't know the filename)
+- [ ] Label the archives
+    - [ ] `~/eev/OTHERS/SFW`
+        - [ ] (0 out of ~150)
+    - [ ] `~/eev/OTHERS/PTP`
+        - [ ] (0 out of ~550)
+    - [ ] `~/eev/OTHERS/OK`
+        - [ ] (0 out of 1)
+- [ ] Ax31 IX ANIM
+    - [ ] Located at `~/eev/MY_ART/PTP/Axel-IX.blend`
+- [ ] Keldies animation test
+    - [ ] Located at `~/eev/MY_ART/MAIN/Kelides-test-01.blend`
+- [ ] Make a Podomono timer in C++ (`~/git/timer`) (Use CMAKE)
+- [ ] Come up with somthing else to program
