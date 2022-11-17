@@ -1,3 +1,4 @@
+# Personal TODO.md
 - [ ] Organize: `mv ~/eev/OTHERS/META ~/eev/OTHERS/OK`
 - [ ] Organize: `mv ~/blender/*xel*.blend ~/eev/MY_ART/PTP/Axel-IX.blend` (Move Axel.blend but I don't know the filename)
 - [ ] Label the archives
@@ -7,8 +8,15 @@
         - [ ] (0 out of ~550)
     - [ ] `~/eev/OTHERS/OK`
         - [ ] (0 out of 1)
+- [ ] Repair the animation rigs.
+    - [ ] There are too many to list here. See `TODO-RIGS.md`
 - [ ] Ax31 IX ANIM
-    - [ ] Located at `~/eev/MY_ART/PTP/Axel-IX.blend`
+    - [ ] Located at `~/eev/MY_ART/PTP/Axel-IX.blend
+- [ ] Complete `art-prompts.txt`
+    - [ ] Section 1
+    - [ ] Section 2
+- [ ] Make an IX 3D animation
+    - [ ] It dosnt *need* to be good, just try to relearn everything. (Its been years since I animated stuff)
 - [ ] Keldies animation test
     - [ ] Located at `~/eev/MY_ART/MAIN/Kelides-test-01.blend`
 - [ ] Make a Podomono timer in C++ (`~/git/timer`) (Use CMAKE)
