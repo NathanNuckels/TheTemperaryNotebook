@@ -1,0 +1,3 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(top-rank VERSION 0.1.0 LANGUAGES CXX)
+# idk what to do here really...
