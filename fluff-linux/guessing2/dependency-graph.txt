@@ -1,0 +1,107 @@
+Dependency source: packages.archlinux.org
+Build order: linuxfromscratch.org
+
+
+
+0001 binutils (I)
+0002 GCC (I)
+0003 linux-api-headers
+0004 glibc (I)
+0005 libstdc++ (from GCC)
+0006 M4 (I)
+0007 ncurses (I)
+0008 bash (I)
+0009 coreutils (I)
+0010 diffutils (I)
+0011 file
+0012 gawk (I)
+0013 grep (I)
+0014 gzip (I)
+0015 make (I)
+0016 patch (I)
+0017 sed (I)
+0018 tar (I)
+0019 xz (I)
+0020 binutils (II)
+0021 GCC (II)
+0022 gettext (I)
+0023 bison (I)
+0024 perl (I)
+0025 Python (I)
+0026 Texinfo (I)
+0027 util-linux (I)
+0028 man-pages
+0029 iana-etc
+0030 glibc (II)
+0031 zlib
+0032 bzip2
+0033 xz (II)
+0034 zstd
+0035 file
+0036 readline
+0037 M4 (II)
+0038 bc
+0039 flex
+0040 tcl
+0041 expect
+0042 dejagnu
+0043 binutils (III)
+0044 GMP (From GCC)
+0045 MPFR (From GCC)
+0046 MPC (From GCC)
+0047 attr
+0048 acl
+0049 libcap
+0050 shadow
+0051 GCC (III)
+0052 pkg-config
+0053 ncurses (II)
+0054 sed (II)
+0055 psmisc
+0056 gettext (II)
+0057 bison (II)
+0058 grep (II)
+0059 bash (II)
+0060 libtool
+0061 GDBM
+0062 gperf
+0063 expat
+0064 inetutils
+0065 less
+0066 Perl (II)
+0067 XML::Parcer
+0068 intitool
+0069 autoconf
+0070 automake
+0071 openssl
+0072 kmod
+0073 libelf (From efiutils)
+0074 libefi
+0075 Python (II)
+0076 wheel
+0077 ninja
+0078 meson
+0079 coreutils (II)
+0080 check
+0081 diffutils (II)
+0082 gawk (II)
+0083 findutils
+0084 groff
+0085 GRUB
+00086 gzip (II)
+00087 IPRoute2
+0088 kbd
+0089 libpipeline
+0090 make (II)
+0091 patch (II)
+0092 tar (II)
+0093 texinfo (II)
+0094 vim
+095 eudev
+0096 man-db
+0097 procps-ng (I)
+0098 util-linux (II)
+0099 e2fsprogs
+0100 sysvinit
+0101 LFS-Bootscripts
+0102 Linux
