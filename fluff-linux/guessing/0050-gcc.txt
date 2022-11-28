@@ -1,0 +1,74 @@
+[Needs ISO C++11 compiler]
+[Needs stanard libraries]
+[BINUTILS is needed]
+[Make is needed]
+[GNU GMP sources is needed in subdir]
+[MPFR sources needed in subdir [https://www.mpfr.org]
+[MPC sources needed in subdir [https://www.multiprecision.org/mpc]
+[Tar and xzip are "required" to extract the archive BUT this COULD
+be done on another computer.]
+[Testing requires tcl, expect and dejagnu]
+
+0050.01 Getting the code.
+    0050.01.1 GCC
+        wget https://ftp.gnu.org/gnu/gcc/gcc-12.2.0/gcc-12.2.0.tar.xz
+    0050.01.2 GNU GMP
+        wget https://ftp.gnu.org/gnu/gmp/gmp-6.2.1.tar.xz
+    0050.01.3 MPFR
+        wget https://ftp.gnu.org/gnu/mpfr/mpfr-4.1.1.tar.xz
+    0050.01.4 MPC
+        wget https://ftp.gnu.org/gnu/mpc/mpc-1.2.1.tar.xz
+    0050.01.5 Extract everything correctly
+        tar xf gcc-12.2.0.tar.xz
+        cd gcc-12.2.0
+        tar xf ../gmp-6.2.1.tar.xz
+        tar xf ../mpfr-4.1.1.tar.xz
+        tar xf ../mpc-1.2.1.tar.xz
+        # NOTE: This is done in Linux From Scratch.
+        # The GNU instructions don't mention it.
+        mv gmp-6.2.1 gmp
+        mv mpfr-4.1.1 mpfr
+        mv mpc-1.2.1 mpc
+0050.02 Configuration
+    # "First, we highly recommend that GCC be built into a separate directory
+    # from the sources which does not reside within the source tree. This
+    # is how we generally build GCC; building where srcdir == objdir should
+    # still work, but doesn’t get extensive testing; building where objdir
+    # is a subdirectory of srcdir is unsupported."
+    
+    # You can't have the build folder be a sub folder of the source folder.
+    # But LFS does this for some reason...?
+    # But I wont!
+    cd ..
+    mkdir gcc-build
+    cd gcc-build
+    ../gcc-12.2.0/configure \
+        --with-pkgversion="GCC home-made [INSERT DATE HERE]"
+        # pkgversion is optional, it just adds a little flare to gcc --version
+        --prefix=/usr/pkg
+        --program-suffix=-fluff
+        # renames gcc to gcc-fluf to tell the difference.
+        --enable-threads
+        --enble-languages=c,c++
+0050.03 Compilation
+    # WARNING: THE CONFIGURE COMMAND ABOVE IS A **GUESS**
+    # I DO NOT KNOW WHAT I'M DOING!!!
+    
+    # Find out how many cores your CPU has, multiply by two.
+    # Replace my '16' with your number.
+    make -j16
+0050.04 Testing
+    make -j16 -k check
+    #This is gonna take a wile
+    # Reading results:
+    # PASS is good
+    # XPASS is unexpected PASS.
+    # FAIL is bad
+    # XFAIL is good. Its Expected FAIL so its OK
+    # UNSUPPORTED means nothing.
+    # ERROR or WARNING could be a you problem OR could be the test being weird.
+0050.05 Install
+    make DESTDIR=/mnt/fluff/fakeroot/gcc-12.2.0 install
+    
+    
+    
