@@ -1,6 +1,11 @@
 Dependency source: packages.archlinux.org
 Build order: linuxfromscratch.org
 
+Dependencies for LINUX are the dependencies
+to compile the Arch Linux default kernel and may
+not apply to LFS.
+
+Missing packages are marked 'XXXX'
 
 
 0001 binutils (I)
@@ -105,3 +110,27 @@ Build order: linuxfromscratch.org
 0100 sysvinit
 0101 LFS-Bootscripts
 0102 Linux
+    XXXX mkinitcpio
+    XXXX cpio
+    XXXX git
+    XXXX graphviz
+    XXXX imagemagick
+    XXXX python-sphinx
+    XXXX python-sphinx_rtd_theme
+    XXXX texlive-latexextra
+    XXXX xmlto
+    XXXX pahole
+    
+    0079 coreutils (II)
+        acl
+        attr
+        glibc
+        gmp
+        libcap
+        openssl
+    0072 kmod
+    0038 bc
+    0073 libelf
+    0066 perl (II)
+    0092 tar
+    0033 xz (II)
