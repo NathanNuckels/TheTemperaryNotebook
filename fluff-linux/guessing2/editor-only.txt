@@ -1,0 +1,92 @@
+Making an editor only linux system.
+
+
+Assume all sources are present, the drive is partitioned and mounted,
+that the host system has all dependencies required, and that everything
+is run as root.
+
+Assume DEV=/path/to/dev/sysroot
+
+Assume the hosst and dev machine are both x86_64.
+
+Top priority is giving the dev system its own compiler.
+Lets do it the way LFS does it since I can't configure GCC myself.
+I'm too scared to configure GCC myself and personally belive its impossible
+to build it with ZERO dependencies but whatever LFS does lets you have
+an OK-ish version of it and its only dependency is binutils wich makes this
+process a lot faster.
+
+Compile binutils.
+        mkdir build;cd build
+        ../configure --prefix=$DEV/tools \
+        --with-sysroot=$DEV \
+        --target=x86-64-fluff-linux-gnu \
+        --disable-nls --enable-gprofng=no \
+        --disable-werror
+        make
+        make install
+Compile GCC
+        # GCC has these dpeendencies but you can compile them
+        # at the same time as GCC
+        tar xf ../mpfr*.tar.*z
+        tar xf ../gmp*.tar.*z
+        tar xf ../mpc*.tar.*z
+        mv mpfr-* mpfr
+        mv gmp-* gmp
+        mv mpc-* mpc
+        # Tell GCC to put libs in /lib instead of /lib64
+        sed -e '/m64=/s/lib64/lib/' -i.orig gcc/config/i386/t-linux64
+        mkdir build;cd build
+        
+        ../configure                  \
+            --target=x86-64-fluff-linux-gnu \
+            --prefix=$LFS/tools       \
+            --with-glibc-version=2.36 \
+            --with-sysroot=$DEV       \
+            --with-newlib             \
+            --without-headers         \
+            --disable-nls             \
+            --disable-shared          \
+            --disable-multilib        \
+            --disable-decimal-float   \
+            --disable-threads         \
+            --disable-libatomic       \
+            --disable-libgomp         \
+            --disable-libquadmath     \
+            --disable-libssp          \
+            --disable-libvtv          \
+            --disable-libstdcxx       \
+            --enable-languages=c,c++
+        make
+        make install
+        cd ..
+        cat gcc/limitx.h gcc/glimits.h gcc/limity.h > \
+            `dirname $($LFS_TGT-gcc -print-libgcc-file-name)`/install-tools/include/limits.h
+Get API headers (from the linux code)
+        make mrproper
+        make headers
+        find usr/include -type f ! -name '*.h' -delete
+        cp -rv usr/include $DEV/usr
+Compile GLIBC
+        #LSB Compilence
+        ln -sfv ../lib/ld-linux-x86-64.so.2 $DEV/lib64
+        ln -sfv ../lib/ld-linux-x86-64.so.2 $DEV/lib64/ld-lsb-x86-64.so.3
+        # This uses a Linux From Scratch patch file.
+        patch -Np1 -i ../glibc-2.36-fhs-1.patch
+        mkdir build;cd build
+        echo rootsbindir=/usr/sbin">configperams
+        ../configure --prefix=/usr --host=x86-64-fluff-linux-gnu \
+        --build=$(../scripts/config.guess) --enable-kernel=3.2 \
+        --with-headers=$DEV/usr/lincude libc_cv_slibdir=/usr/lib
+        make
+        make DESTDIR=$DEV install
+        sed '/RTLDLIST=/s@/usr@@g' -i $DEV/usr/bin/ldd
+        echo 'int main(){}'|gcc -xc -
+        readelf -l a.out|grep ld-linux
+        # Showld say '/lib64/ld-linux-x86-64.so.2'
+        rm a.out
+        $DEV/tools/libexec/gcc/$LFS_TGT/12.2.0/install-tools/mkheaders
+ libstdc++ (With GCC sources)
+        mkdir build;cd build
+        ../libstdc++-v3/configure --host=/x86-64-fluff-linux-gnu
+        [TO BE CONTINUED}
