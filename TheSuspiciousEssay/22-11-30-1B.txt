@@ -1,0 +1,97 @@
+INCIDENT REPORT
+
+GOURLEY
+FALLICY: False premise fallicy
+CLAIM: Mr. Gourley says someone is writting code on company time.
+COURTER-CLAIM:
+This argument follows the false premice fallicy.
+
+From Wikapedia:
+
+For example, consider this syllogism, which involves a false premise:
+
+If the streets are wet, it has rained recently. (premise)
+The streets are wet. (premise)
+Therefore it has rained recently. (conclusion)
+
+This argument is logically valid, but quite demonstrably wrong, because its
+first premise is false - one could hose down the streets, the local river
+could have flooded etc.
+
+The Error is here:
+
+1 (TRUE) Github is a platform for coding
+2 (FALSE) Github can only be used for coding
+3 (TRUE) Code is written by typing.
+4 (FALSE) Typing is only used for coding
+5 (FALSE) Since the person was typing, and had Github open they must be coding.
+6 (TRUE) I did not tell them to code
+7 (FALSE) They are sub-human for not following my exact orders.
+
+almost all of these are false premice fallicies
+and the last one goes agenst the no discrimination rule.
+
+Although it was probibly just "You re typing on a computer, therefore, f*** you"
+Even if they tried to think about it logically, it still results in a fallicy.
+I will now describe in detail why the statemnets are true and false.
+You know waht they say in court, prove it BEOND a reasonble doubt!!
+
+1. Github is a platform for coding.
+
+This statement is TRUE.
+
+Git is used to manage sourcce code to many packages and
+it is often published to Github so that others can comment on it.
+
+2. Github is only used for coding
+
+This statement is FALSE
+
+Github is used to circumvent cencorship.
+See: https://github.com/996icu/996.ICU
+
+I use Github's built in editor becasue it is the only text editor
+on my chromebook. I do not use google docs for privicy reasons.
+Github is a lot easier to organise than google docs.
+
+3. Code is written by typing is true.
+Cdoe is just text.
+4. Typing is code.
+False. People can type up papers and stuff.
+
+5. Since the person was typing on github, they are coding.
+This is false becasue 2 is false. People use Github because
+there is no other way to advicate for themselves.
+
+6. This is true.
+The "teacher" did not tell us to code.
+
+7. This is false.
+It is not possible to do their exact orders.
+The "teacher" did not provide enough instrucitons.
+The "teacher" told us to choose two out of five parts
+and only alloued us to answer ONE spesific section.
+Even if you wanted to do that section, you were required
+to complete two, wich is not possible.
+
+I have now proven beond a reasonable doubt that
+the following statements are false:
+"If a student is on Github, they are coding on company time"
+"If a student is typing, they are coding on company time"
+"If a student is typing in a monospace font, they are coding on company time"
+
+Here are my assumptions about the teacher:
+
+They belive creativity is bad for schools.
+They belive we should not attempt to improve the future
+They belive that if someone is typing in a monospace font, it is coding.
+They belive storytelling should not be alloued.
+I belive that they are either discriminating agenst me, programing,
+storytelling, or if you're willing to do some mental gymnastics, agenst
+trans people. (A lot of trans people are programers. No one knows why...)
+but thats a bit of a stretch, even for my tastes.
+
+Love with your heart, but use your head for everything else.
+Alan Gray.
+
+BUT I WAS JUST TAKING NOTES!!!
