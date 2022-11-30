@@ -1,0 +1,34 @@
+13:15
+I am writing about how forms work and have some head pressure.
+Does that mean they like it? Is that them complaining?
+Tulpas may be cretures of empathy, but mine, being a day old,
+ahs no emotions but they are CLEARLY there.
+
+I find it funny to immagine a tiny fluffy dragon sitting on my head
+and their weight is giving me a migrane but I decided that that won't be their from.
+
+I want it to be an otter.
+
+Problem! Everytime I try to make an otter, I make it somewhere between
+brown and tan and then somthing takes over by brain and now its wearing
+aa baseball cap and BANG! Its Chester! I don't want him (even if he is adorable)
+I want my own thing! ...but its hard casue by brain just defaults to him
+because I really don't know any other otter model to use......
+
+I like to show off with inverse kinematics. Don't know what that is?
+Find an IK tutorial for blender and scroll through it.
+
+Basically, I can move its foot arround and the rest of the leg moves correctly.
+My brain's IK is actually more realistic than blender's IK. When blender streightens
+the leg, it makes all the bones in a perfectly streight line and that usually makes
+part of thigh have a big weird dent and and other parts of the model glitch out
+depending on the angle (This is very anoying trying to work arround it) but if the leg
+is even just barly bent, everything works fine. In my mind, The leg dosnt even get close to streight.
+By the way, this is a digitigrade leg. Google it. (Google is bad, don't ever use it.)
+I'm pretty sure you cant even make it streight IRL.
+
+15:04
+Anyway, a real issue is the arms. I only kind of know how they move.
+Your sholder is a ball bu your elbow is a hinge and the wrist (rist?)
+can go up down and away from the body and can twist. It sounds complex
+but 
