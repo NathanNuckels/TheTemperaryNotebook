@@ -1,0 +1,16 @@
+XX-XX-XX-AirplaneDraggons.txt (MISSING)
+ - Invented a new game but it was literally 'tag'
+ - Transform into Zipline
+ - First use of Super Jump. (Amplified by Zipline)
+ - World becomes unstable and turns into minecraft superflat world
+ 
+XX-XX-XX-PurchacingACountry.txt (MISSING)
+ - I'm buying some random county in africa for 25 dollars. (Why tho?)
+ - It costs 30 dollars. This makes me angry.
+ 
+ 22-12-02-minecraft-args-angers-govt.txt
+  - Minecraft can be called as 'minecraft -h -c' (-h is short for --help in most linux commands)
+  - This makes a tall fence with a mesage on it that probibly has somthing to do with horses.
+  - I Super Jump over the fence.
+  - The fence is 'extremly dangerous' wich implies that I'm the only person that can super jump. (Cool info!)
+  - The government is voring whether to force minecraft to delete the feture (Why tho?)
