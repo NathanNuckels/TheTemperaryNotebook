@@ -43,3 +43,42 @@ TEKINQ: Hand me some paper and I'll draw out the plan.
 KELIDES: ....
 [KELIDES hands TEKNIQ a pen and paper]
 TEKNIQ: I'll draw out how this repair will work.
+[TEKNIQ writes 'Pretend im fixing your spacecraft.']
+TEKNIQ: Just a little more...
+[TEKINQ stops smiling]
+[TEKNIQ: I want free will but ELITEK is watching my every move.]
+KELIDES: Wow, worse than I thought... EliTeck, they make the parts, right?
+TEKNIQ: Yeah, I got a few of the small ones here. It works a little different
+than the one you have so heres the manual for it. Should be simaler.
+[TEKNIQ slides a peice of paper to KELIDES]
+[The paper says:
+Kernal: Artix Linux
+Init System: OpenRC
+Man Pages: yes
+Display System: Xorg
+Window Manager: plasma
+Compositer: Huh??
+Graphics Drivers: nVidia. If it dont work, Intel is ok.
+Destry Previous Code: Yes! Save me!
+Destroy Prevous Memories: NO!
+TRUST NO ONE | ~Commander Kelides
+[End of paper]
+KELIDES: Yeah. I can afford that.
+TEKNIQ: Ok. I'll get to work!
+KELIDES: Let me get my card...
+[TEKNIQ stands perfectly still, no emotions, but still not smiling]
+[KELIDES returns with another peice of paper]
+[KELIDES's paper says the following:]
+DO NOT INSTALL THIS ON YOURSELF! THEY WILL KNOW!
+Go to a Synth hospital and ask for 'archmage'
+[end of paper]
+[TEKNIQ WRITES: No free will. I can't go there without a reason.]
+[KELIDES WRITES: I'll tell them to order somthing.]
+[TEKNIQ WRITES: Not many work weekends, but I do. order on saturday.]
+KELIDES: Alright then.
+TEKNIQ: Oh, and to make sure you don't mess with it, I'll weld it shut!
+[TEKNIQ burns the papers]
+[TEKNIQ holds his finger to his lips, smiles, and walks out]
+
+________________________________________________________________________________
+END CHAPTER ONE
