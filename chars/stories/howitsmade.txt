@@ -1,0 +1,19 @@
+Phoenix Studios Presents:
+
+HOW ITS MADE: LIFE
+BY ALAN GRAY
+
+What is up everybody, its TEKNIQ! Today I'm going to give you a tutorial
+on how to raize the dead! I'll try my best but know that this is my first time too.
+Episide One hundread fourty eight: BRAINS!
+
+From the wiring tutorial, this Protogen now has a massive pin header in the back of his neck.
+By putting ground in ground and five volts in the other holes, you can move his body.
+We did this last time to test the moters but this time we just need to make sure
+its facing the right way. Ground is on one of the corners, Above it should be
+RIGHT_WRIST_OUT. Try connecting that to five volts. If nothing happens, swap
+the connections or try the other side. Once you find it, make a line next to ground
+so you don't forget. Now you can plug it in to the brain correctly.
+But how do you build the brain?
+
+check out nandgame.com
