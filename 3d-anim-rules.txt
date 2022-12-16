@@ -1,0 +1,27 @@
+For the Drive Safe thing, there arn't many rules.
+
+The real rules are just keep it PG, followed by a leagal disclaimer.
+
+But there are IMPLIED rules as well.
+
+It is implied hat you MUST work on it during class.
+If you must work on it in class, that implies that it must be 3D
+because the school computers can't do anything else.
+
+And finally, it is implied that we are not alloued to take breaks.
+If this were a job instead of a school, that would be illeagal.
+
+I have a few possible solutions:
+
+I could taket my burner laptop to school. actually, I MUST!
+
+Instructions:
+Remove the AUTOSTART X feature from .bashrc
+Switch the password to the extended password.
+Disable NetworkManager, iwd and dhcpcd at school (No wifi for security)
+Bring the charger.
+To save battery power, DO NOT RENDER ANYTHING AT SCHOOL.
+Move the blender project to its own SEPERATE git repository on the company gogs server
+Bring the mouse.
+Bring the drawing tablet just in case.
+Bring a USB to copy files from Linux to Mac and back.
