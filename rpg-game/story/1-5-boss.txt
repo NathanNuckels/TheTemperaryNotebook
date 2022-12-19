@@ -1,0 +1,33 @@
+rpg-game idea
+Inspired by Paper Mario (2001)
+
+Chapter one boss: "Dragon" (With quotes)
+Its a red draggon! But its made of cardboard...?
+
+"Dragon" stats:
+    HP: 150
+    Defence: 1
+    It looks a little odd, dosn't it?
+    Attacks:
+        Spit: [2] A ball gets 'thrown' out of its mouth.
+        Stomp: [5]
+
+Every three turns, the player is alloued to roll for investigation with a DC of 17.
+If it passes, The name changes from '"Dragon"' to 'Kobold Piñata' and makes this dialouge:
+
+Zipline: I know you're just a bunch of Kobolds!
+Miẑka: No we're not!
+Ĥaklang: Uhh, do somthing a draggon would do!
+Mauri: ROAR! I LIKE GOLD! HAND OVER YOUR SWARD!
+(<sward> not <sword>. It's pernounced /sʊaɹd/)
+
+
+Kobold Names:
+
+Mauri   [mau:.ri] (Red Collar)
+La?ki   [laʔ.iʔ] (Green Collar)
+Ĥaklang [xak.klaŋ] (Yellow Collar)
+Ngall   [ŋal:] (Blue Collar)
+Miẑka   [mi:ʒ.ka] (Purple Collar)
+
+Notes: ? is glottal stop, N is velar nasal, Z is voiced postalveolar fricative
