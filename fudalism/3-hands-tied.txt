@@ -1,0 +1,63 @@
+Voices:
+[N] Natural
+[M] Music
+[4] Fourth up
+[B] Bass
+[5] Fifth down
+[^] Pitch go up suddenly
+[s] Steccato
+[l] Legardo
+
+
+Is this the real life?  {This is from Bohimianrapshody by Queen/Ohxm}
+Or is this fantacy?
+Another dying dream, {This line was changed. The author forgot what this line was and made somthing up.}
+Or land of make belive?
+I know I don't controll
+any of my life  {Of course, refering to the ****** ****** and how controlling it is.}
+but I act like
+I can always fly. {Could be a reference to Phoenix/Zipine the Planedraggon/Synth}
+
+[M ] I taped down to the ground. {The author says: "Taped down with duct tape. You can't rip that crap with your hands!"}
+[M4] No tools for sucsess {Refering to now the Chromebooks have no text editor or word processor}
+[M ] I try to make my rounds
+[M4] And find what I'll do next. {Rhyming 'next' with 'sucsess' is from Finale by AJR}
+
+[  M4] [l] Oh, what'tyl I do next? [pause]
+[  M4] [l] I know, It'yl be my best. [pause] [next line has four four drums]
+[B5M ] [s] But my best aint enough for this [^]entire school, {Refering to a quote "I do my best, but my best is never enough for you."}
+[B5M4] [s] And nothing we will do, will escape their rule.
+
+[B5] I don't know if this a song yet
+[B5] I know no one buy my album.
+[N] <Save yourselves!> {{The author liked how "Hethens" by TOP said "Its blasphemy!" and decided to make his own version}
+[M] But what I have it all ive got.
+[M] and you know I dont got a lot.
+
+[B5M ] Hey, hey, Pull Request.  {Pull Request is a request to upload changes in git}
+[B5M ] Guess what? Still suppressed.
+[B5M ] No diff. No change. {Diff from diffutils, is difference}
+[ 5M4] and nothing ever goes our way~!
+
+[M] I am enough. But not in here.
+[M] I think I'm good enugh this year. {This is a reference to Karma by AJR}
+[M] in FireJail. I don't prevail. {FireJail is a sandboxing system. Ironicly, escaping FireJail (intentionally) almost always harms the computer}
+[M] So just assume, I aint avail. {Avail, possibly from ENOAVAIL, means available}
+
+[B M ] I wana fall off the grid.
+[ 5M ] But they takle me down! {Emphasys on the second syllable of 'tackle' makes this sound more interesting that it really is.}
+[B M ] Won't let me help my self.
+[B5M ] And so I ask the how.
+
+[ 5M4] AND. WHYYYYY.
+[  M4] You don't [B5M4] know me.
+[  M4] This ain't my name and need.
+[ 5M4 Why cant you stop your greed?
+[B5M4] And I ask them
+
+[   4] WHO?
+[  M4] Who do you answer to?
+[B5M4] Who makes all your plans?
+[ 5M ] Who says that my hands
+
+are tied.
