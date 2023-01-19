@@ -1,0 +1,5 @@
+[Learning about socket() and bind()]
+Linux has given dobby a sock...et.
+Dooby is free! Wait, no, its a null pointer.
+And theres no wifi. Still free though!
+*liberates laptop*
