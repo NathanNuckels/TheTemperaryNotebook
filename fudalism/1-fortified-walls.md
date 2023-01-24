@@ -6,6 +6,10 @@ This is normal.
 
 ***This is all three***
 
+{This is stage directions}
+
+(..) This is a one beat rest. Not all rests are listed here.
+
 ### START
 ---
 
@@ -49,13 +53,13 @@ No one will know what's my next line!
 
 o-o-o-o-o-o-oh
 
-Listen now, this ain't ok!
+Riddle me this, cause this ain't ok!
 
 I'll do anything to escape!
 
-find the hate open the gates
+I find the hate open the gates
 
-and just send them all my waaaaaaaaay
+and please just send them all my waaaaaaaaay
 
 ---
 
@@ -83,24 +87,17 @@ I need you here.
 
 ---
 
-I do one thing well so let me do nothing else!
+I let ya live your life {Kelides on a black and glowing_orange background}
 
-You say I overwhelm cause I just aint'--
+So I think you owe me mine
 
---stelth. I do my best but its never enough for this
+I know you'd never frown
 
-I do what I can but we'll never can coexist
+If I **just stepped down**
 
-I scream my broken promises and I know their dismissive
+(..) You see these claw marks on the desk and you know where their from (..) {8/8 drums; Kelides is sliding down a wooden pole with his claws}
 
-When someone writes somthing authoritative their permissive
+Can't you see I'm claw'hin down this wall be cause I'm \* drownin in ya \* system {Very literal.} {Part in \*s 16/16}
 
-? ? ? ? ? ? ? ? ? be the most restrictive\*\*\*
-
-We dont got no human rights and that still is definitive
-
-TODO: Insert one syllable to the above line
-
----
-
-\*\*\*TODO: Fit 'They always gotta' into 9 syllables
+Trying just to hang on to the few threads that I have (..) (..)
+But (..) ?????????????
