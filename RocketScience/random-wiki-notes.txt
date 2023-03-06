@@ -1,0 +1,64 @@
+Orbital velocity:
+
+v = sqrt(G * M * ( (2/r - 1/a) ) )
+G= 6.674E-11
+
+works for circular orbits
+
+Optimal rocket:
+
+[Payload]
+3.75m decoupler
+S3-7200
+S3-14400
+Mammoth Engine
+Radial Decoupler x4
+S3-7200
+Rhino Engine
+Radial Decoupler x4
+S3-7200
+S3-14400
+Mmmoth Engine
+
+Alternitave:
+
+[Payload]
+3.75m Decoupler
+S3-7200
+Rhino Engine
+3.75m Decoupler
+S3-7200
+S3-14400
+Mammoth Engine
+Radial Decoupler x4
+S3-14400
+Mamouth Engine
+
+
+
+MATHMATICS
+TWR = F / m*g
+m = Mass of craft
+g = Surface gravity
+
+Delta V
+
+v= ln(Mass / DryMass) * ISP * g
+
+ISP of multaple engines combined:
+
+ISP = (F1 + F2 + F3...) / (F1/ISP1 + F2/ISP2...}
+Where Fx is the force of engine x and ISPx is the ISP.
+
+
+Hohmann Transfer:
+dv1 = sqrt(U/r1+R) * (sqrt( (2(r2+R)) / (r1+r2+2*R) ) -1)
+dv1 = sqrt(U/r1+R) * (sqrt(1- (2(r2+R)) / (r1+r2+2*R) ))
+in Km/s
+
+R = Radius of parent body
+r1 = Starting orbit
+r2 = Ending orbit
+U = Gravitational peramiter (3530.461 on Kerbin)
+
+
