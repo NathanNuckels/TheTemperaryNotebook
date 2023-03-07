@@ -62,3 +62,7 @@ r2 = Ending orbit
 U = Gravitational peramiter (3530.461 on Kerbin)
 
 
+\frac{\left(x+\sqrt{\left|a^{2}-b^{2}\right|}\right)^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=1
+\left(-\sqrt{\left|a^{2}-b^{2}\right|},0\right)
+\left(a\cos z-\sqrt{\left|a^{2}-b^{2}\right|},b\sin z\right)
+\left(a\ \frac{1-z^{2}}{1+z^{2}}-\sqrt{\left|a^{2}-b^{2}\right|},b\ \frac{2z}{1+z^{2}}\right)
